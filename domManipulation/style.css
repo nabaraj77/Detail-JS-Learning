@@ -1,0 +1,14 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: aqua;
+}
+p {
+  background-color: tomato;
+  margin: 20px;
+  padding: 7px;
+  width: 200px;
+}
