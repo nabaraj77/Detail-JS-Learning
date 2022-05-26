@@ -35,6 +35,7 @@ const max = function (arr) {
     if (temp[i] > compare) {
       let highest = temp[i];
       compare = highest;
+      debugger;
     } else {
       highest = compare;
     }
