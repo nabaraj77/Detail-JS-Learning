@@ -3,7 +3,7 @@
 // console.log('Nabaraj Dahal');
 
 //CHECKING PRIME NUMBER OR NOT
-const checkPrime = function (no) {
+/*const checkPrime = function (no) {
   let count = 0;
   for (i = 1; i < no; i++) {
     if (no % i == 0) {
@@ -26,4 +26,33 @@ const sumCalc = function (arr) {
   }
   return sum;
 };
-console.log(`Sum is: ${sumCalc(num)}`);
+console.log(`Sum is: ${sumCalc(num)}`);*/
+const temp = [1, 101, 2, 5, 3, 3, 99, 1];
+
+const max = function (arr) {
+  let compare = 0;
+  for (i = 0; i <= temp.length; i++) {
+    if (temp[i] > compare) {
+      let highest = temp[i];
+      compare = highest;
+    } else {
+      highest = compare;
+    }
+  }
+  return highest;
+};
+console.log(`${max(temp)}`);
+const min = function (arr) {
+  let compare = highest;
+  for (i = 0; i <= temp.length; i++) {
+    if (temp[i] < compare) {
+      let lowest = temp[i];
+      compare = lowest;
+    } else {
+      lowest = compare;
+    }
+  }
+  return lowest;
+};
+console.log(`${min(temp)}`);
+console.log(`Amplitude is ${highest - lowest}`);
