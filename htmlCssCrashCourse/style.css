@@ -11,3 +11,9 @@ body {
   background-color: blue;
   border: 2px solid tomato;
 }
+input,
+button {
+  padding: 5px;
+  margin: 4px;
+  border: none;
+}
