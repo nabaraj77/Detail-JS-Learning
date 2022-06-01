@@ -1,0 +1,72 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: palevioletred;
+  width: 100vh;
+  height: 100vh;
+}
+.wrapper {
+  position: relative;
+  margin-top: 15%;
+  margin-left: 50%;
+  display: flex;
+  height: 80%;
+  width: 100%;
+}
+h1 {
+  text-align: center;
+}
+.player1 {
+  width: 50%;
+  background-color: tomato;
+}
+.player2 {
+  background-color: blueviolet;
+  width: 50%;
+}
+.score {
+  margin-top: 95%;
+  margin-left: 30%;
+  height: 80px;
+  width: 110px;
+  background-color: rgb(255, 127, 225);
+  padding: 5px;
+  font-size: large;
+  color: white;
+}
+.score-update {
+  display: block;
+  text-align: center;
+  padding: 4%;
+  font-weight: bolder;
+  font-size: xx-large;
+}
+.dice {
+  height: 30px;
+  background-color: white;
+  color: black;
+  border-radius: 10px;
+  border: none;
+  padding: 5px;
+  display: block;
+}
+.roll-dice {
+  margin-bottom: 5px;
+}
+.roll-dice {
+  position: absolute;
+  top: 56%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 1;
+}
+.hold-dice {
+  position: fixed;
+  top: 64%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 3;
+}

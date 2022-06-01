@@ -1,0 +1,54 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-family: 'Nunito', sans-serif;
+  font-weight: 400;
+  height: 100vh;
+  color: #333;
+  background-image: linear-gradient(to top left, #28b487,#7dd56f);
+}
+.college-name {
+  margin-top: 1rem;
+  text-align: center;
+}
+.add-check-book {
+  display: flex;
+  justify-content: left;
+  width: 90vw;
+  margin: auto;
+  margin-top: 1rem;
+  font-size: 22px;
+}
+.addBooks {
+  background-color: pink;
+  width: 50%;
+
+  padding: 7px;
+}
+.checkBook {
+  background-color: aqua;
+  width: 50%;
+  padding: 7px;
+}
+input {
+  height: 30px;
+  width: 250px;
+  border: none;
+  border-radius: 10px;
+  margin: 10px;
+  padding: 7px;
+  font-size: 19px;
+}
+.btn {
+  font-size: 18px;
+  padding: 7px;
+  align-content: center;
+  border-radius: 10px;
+  border: none;
+}
+h2 {
+  text-align: center;
+}

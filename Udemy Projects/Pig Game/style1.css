@@ -1,0 +1,86 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  height: 100vh;
+  width: 100vw;
+  background-color: aqua;
+  position: fixed;
+}
+.wrapper {
+  position: relative;
+  margin-left: 10%;
+  margin-top: 5%;
+  width: 80%;
+  height: 80%;
+  background-color: aquamarine;
+}
+/* Current-ScoreCardField */
+.current-score-card {
+  border-radius: 10px;
+  text-align: center;
+  background-color: white;
+  width: 150px;
+  padding: 10px;
+  margin-top: 20rem;
+  margin-left: 37%;
+  margin-bottom: 2%;
+}
+.current-score {
+  padding-top: 10px;
+  font-style: italic;
+  font-size: xx-large;
+  font-weight: bolder;
+}
+.btn {
+  font-size: large;
+  padding: 10px;
+  border: none;
+  border-radius: 10px;
+  background-color: white;
+}
+img {
+  height: 70px;
+}
+
+.player1 {
+  float: left;
+  background-color: red;
+  width: 50%;
+  text-align: center;
+}
+.player2 {
+  float: right;
+  background-color: gray;
+  width: 50%;
+  text-align: center;
+}
+.play-again {
+  position: absolute;
+  top: 15%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+img {
+  position: absolute;
+  top: 30%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.roll-dice {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hold-dice {
+  position: absolute;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.hidden {
+  display: none;
+}

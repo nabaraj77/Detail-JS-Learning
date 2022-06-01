@@ -13,3 +13,4 @@ const arr = function (flightNumber, noOfPassenger, price) {
 console.log(bookings);
 arr('A123', 12, 121212);
 arr('B12', 12);
+//MORE EXAMPLES
